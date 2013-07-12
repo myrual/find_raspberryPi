@@ -1,0 +1,5 @@
+sudo cp startup /etc/init.d
+sudo chmod 755 /etc/init.d/startup
+sudo chown root:root /etc/init.d/startup
+
+sudo update-rc.d startup defaults
